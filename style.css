@@ -1,0 +1,164 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+ 
+.inter-paragraph {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Example: regular */
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.inter-heading {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; /* Example: bold */
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+
+.card{
+    width: 27%;
+    height: 570px;
+    margin: 150px auto ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;  
+    background-color: #202020;
+    border-radius: 13px;
+}
+
+img{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 40px;
+}
+h5{
+    color: hsl(75, 94%, 57%);
+    margin: 0%;
+}
+.pp{
+    font-weight: lighter;
+    color: #ede2e2;
+    font-size: 12px;
+}
+button {
+    padding: 15px 8px; /* Adjust padding as needed */
+    border: none;
+    background-color: #333333;
+    /* - Dark Grey: 
+    - Off Black: hsl(0, 0%, 8%); Adjust color as needed */
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Example: regular */
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 270px; /* Adjust width as needed */
+    margin-bottom: 0px; /* Adjust margin as needed */
+    border-radius: 8px;   
+  }
+  button:hover{background-color:hsl(75, 94%, 57%);
+    color: #202020;}
+  button:active{
+    background-color: hsl(75, 94%, 57%);
+  }
+  
+
+  /* For devices with a maximum width of 768px (typical tablets) */
+@media only screen and (max-width: 768px) {
+    .card {
+      width: 80%; /* Adjust width as needed */
+      height: 90%;
+      margin: 50px auto; /* Adjust margin as needed */
+      margin-left: 0px;
+      text-align: center; /* Center align content */
+    }
+    #ig-button{
+      margin-bottom: 35px;
+    }
+    img {
+      width: 40%; /* Adjust width as needed */
+      margin-top: 20px; /* Adjust margin-top as needed */
+    }
+  
+    button {
+      margin: 1px 0px; /* Adjust margin as needed */
+      width: 90%;
+      display: block; /* Ensure buttons are displayed as block elements */
+    }
+    button:hover{background-color:hsl(75, 94%, 57%);
+      color: #202020;}
+    button:active{
+      background-color: hsl(75, 94%, 57%);
+    }
+    
+    .attribution {
+      text-align: center; /* Center align attribution */
+      margin-top: 20px; /* Add some margin from the card */
+    }
+  }
+  
+  /* For devices with a maximum width of 480px (typical smartphones) */
+  @media only screen and (max-width: 480px) {
+    .card {
+      display: flex;
+      align-items: center;
+      width: 100%; /* Adjust width as needed */
+      margin: 55px 19px 55px 0px;
+      text-align: center; /* Center align content */
+    }
+    
+    img {
+      width: 30%; /* Adjust width as needed */
+      margin-top: 10px; /* Adjust margin-top as needed */
+    }
+  
+    button {
+      margin: 10px 0; /* Adjust margin as needed */
+      display: block; /* Ensure buttons are displayed as block elements */
+    }
+    button:hover{background-color:hsl(75, 94%, 57%);
+      color: #202020;}
+    button:active{
+      background-color: hsl(75, 94%, 57%);
+    }
+    
+    .attribution {
+      text-align: center; /* Center align attribution */
+      margin-top: 20px; /* Add some margin from the card */
+    }
+    .attribution {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 15px 0; /* Add padding for better spacing */
+}
+
+  }
+  
